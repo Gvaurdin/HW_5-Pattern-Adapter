@@ -107,6 +107,7 @@ void menu()
             {
                 ticket.ShowInfo(conv);
             }
+            delete conv;
             system("pause");
         }
         break;
